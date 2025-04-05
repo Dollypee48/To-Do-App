@@ -1,0 +1,125 @@
+/* bacground = #000430
+background color= #171c48
+text= #fff
+purple = #828dff
+ teal = #24feee */
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    background-color: #000430;
+    color: #fff;
+ }
+
+ #container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+ }
+
+ #stats-container{
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid  #828dff;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 400px;
+ }
+
+ #stats-details{
+    width: 100%;
+ }
+
+ #progressBar{
+    height: 10px;
+    width: 100%;
+    background-color: #171c48;
+    border-radius: 5px;
+    margin-top: 20px;
+ }
+
+ #progress{
+    width: 0%;
+    height: 10px;
+    background-color: #24feee;
+    border-radius: 10px;
+    transition: all .3s ease;
+
+ }
+
+ #numbers{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #828dff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+ }
+
+ form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ input{
+    flex: 1;
+    width: 400px;
+    padding: 10px;
+    background-color: #171c48;
+    border: 1px solid #828dff;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+ }
+
+ #add-task{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #828dff;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s ease-out;
+ }
+
+ button:hover{
+    background: #0e123d;
+    transform: scale(1.1);
+ }
+
+ ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    /* background-color: #faf3f3dd; */
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #828dff;
+    border-radius: 10px;
+    gap: 15px;
+   
+}
+
+

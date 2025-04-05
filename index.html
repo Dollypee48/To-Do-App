@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do-List App</title>
+</head>
+<body>
+    <div id="container">
+
+        <div id="stats-container">
+            <div id="stats-details">
+                <h1>To-do App</h1>
+                <p>Number of Tasks</p>
+                <div id="progressBar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div id="stats-number">
+                <p id="numbers">0 / 0</p>
+            </div>
+        </div>
+
+        <form action="">
+            <input type="text" id="task-input" placeholder="Write your Task..."> 
+            <button type="submit" id="add-task">Add Task✍️</button>
+        </form>
+        <br>
+
+        <ul id="task-list"></ul>
+
+        <!-- <button id="export-task">Export Task✈️</button> -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
