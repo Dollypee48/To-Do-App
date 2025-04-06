@@ -51,7 +51,6 @@ function addTaskToList(task) {
     let li = document.createElement("li");
 
     if (task.completed) {
-        li.style.textDecoration = "line-through";
         li.style.color = "green";
        
     }
