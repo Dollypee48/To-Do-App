@@ -6,6 +6,8 @@ const taskList = document.getElementById("task-list");
 const progressBar = document.getElementById("progress");
 const number = document.getElementById("numbers");
 
+//This line sets up an event listener to trigger the loadTasks() function as soon as the HTML document has been fully loaded. It ensures that the tasks are loaded from localStorage when the page is opened.
+
 document.addEventListener("DOMContentLoaded", loadTasks);
 
 addTask.addEventListener("click", function() {
@@ -51,6 +53,7 @@ function addTaskToList(task) {
     let li = document.createElement("li");
 
     if (task.completed) {
+
         li.style.color = "green";
        
     }
